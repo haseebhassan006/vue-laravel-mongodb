@@ -2185,8 +2185,21 @@ var routes = [{
     return setComponent("dashboard/profile/Profile");
   },
   name: "Profile"
+}, {
+  path: "/feed",
+  component: function component() {
+    return setComponent("dashboard/feed/Feed");
+  },
+  name: "Feed"
+}, {
+  path: "/settings",
+  component: function component() {
+    return setComponent("settings/Setting");
+  },
+  name: "Setting"
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  mode: 'history',
   routes: routes,
   linkActiveClass: "active",
   linkExactActiveClass: "exact-active" // short for `
@@ -52754,6 +52767,16 @@ var map = {
 		9,
 		"resources_js_components_ExampleComponent_vue"
 	],
+	"./components/frontend/components/Feed": [
+		"./resources/js/components/frontend/components/Feed.vue",
+		9,
+		"resources_js_components_frontend_components_Feed_vue"
+	],
+	"./components/frontend/components/Feed.vue": [
+		"./resources/js/components/frontend/components/Feed.vue",
+		9,
+		"resources_js_components_frontend_components_Feed_vue"
+	],
 	"./components/frontend/components/Profile": [
 		"./resources/js/components/frontend/components/Profile.vue",
 		9,
@@ -52763,6 +52786,16 @@ var map = {
 		"./resources/js/components/frontend/components/Profile.vue",
 		9,
 		"resources_js_components_frontend_components_Profile_vue"
+	],
+	"./components/frontend/components/Settings": [
+		"./resources/js/components/frontend/components/Settings.vue",
+		9,
+		"resources_js_components_frontend_components_Settings_vue"
+	],
+	"./components/frontend/components/Settings.vue": [
+		"./resources/js/components/frontend/components/Settings.vue",
+		9,
+		"resources_js_components_frontend_components_Settings_vue"
 	],
 	"./components/frontend/pages/dashboard/HomeComponent": [
 		"./resources/js/components/frontend/pages/dashboard/HomeComponent.vue",
@@ -52774,6 +52807,16 @@ var map = {
 		9,
 		"resources_js_components_frontend_pages_dashboard_HomeComponent_vue"
 	],
+	"./components/frontend/pages/dashboard/feed/FeedComponent": [
+		"./resources/js/components/frontend/pages/dashboard/feed/FeedComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_dashboard_feed_FeedComponent_vue"
+	],
+	"./components/frontend/pages/dashboard/feed/FeedComponent.vue": [
+		"./resources/js/components/frontend/pages/dashboard/feed/FeedComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_dashboard_feed_FeedComponent_vue"
+	],
 	"./components/frontend/pages/dashboard/profile/ProfileComponent": [
 		"./resources/js/components/frontend/pages/dashboard/profile/ProfileComponent.vue",
 		9,
@@ -52783,6 +52826,16 @@ var map = {
 		"./resources/js/components/frontend/pages/dashboard/profile/ProfileComponent.vue",
 		9,
 		"resources_js_components_frontend_pages_dashboard_profile_ProfileComponent_vue"
+	],
+	"./components/frontend/pages/settings/SettingComponent": [
+		"./resources/js/components/frontend/pages/settings/SettingComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_settings_SettingComponent_vue"
+	],
+	"./components/frontend/pages/settings/SettingComponent.vue": [
+		"./resources/js/components/frontend/pages/settings/SettingComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_settings_SettingComponent_vue"
 	],
 	"./router": [
 		"./resources/js/router.js",
@@ -52961,7 +53014,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_frontend_components_Profile_vue":1,"resources_js_components_frontend_pages_dashboard_HomeComponent_vue":1,"resources_js_components_frontend_pages_dashboard_profile_ProfileComponent_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_frontend_components_Feed_vue":1,"resources_js_components_frontend_components_Profile_vue":1,"resources_js_components_frontend_components_Settings_vue":1,"resources_js_components_frontend_pages_dashboard_HomeComponent_vue":1,"resources_js_components_frontend_pages_dashboard_feed_FeedComponent_vue":1,"resources_js_components_frontend_pages_dashboard_profile_ProfileComponent_vue":1,"resources_js_components_frontend_pages_settings_SettingComponent_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

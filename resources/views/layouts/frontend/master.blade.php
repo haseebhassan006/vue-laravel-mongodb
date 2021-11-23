@@ -8,20 +8,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Instello - Sharing Photos platform HTML Template">
-
     <!-- icons
     <!-- Favicon -->
     <link href="assets/images/favicon.png" rel="icon" type="image/png">
-
     <!-- CSS
         ================================================== -->
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}">
-
     <!-- Scripts -->
-
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -41,6 +36,7 @@
             </div>
         </div>
     </div>
+    @include('layouts.frontend.component.modal')
 </body>
 <script>
 

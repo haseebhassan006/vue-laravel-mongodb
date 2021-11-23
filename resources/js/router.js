@@ -22,9 +22,13 @@ const routes = [
     },
     { path: "/home", component: () => setComponent("dashboard/Home"), name: "Home" },
     { path: "/profile", component: () => setComponent("dashboard/profile/Profile"), name: "Profile" },
+    { path: "/feed", component: () => setComponent("dashboard/feed/Feed"), name: "Feed" },
+    { path: "/settings", component: () => setComponent("settings/Setting"), name: "Setting" },
+
 ]
 
 const router = new VueRouter({
+    mode: 'history',
     routes,
     linkActiveClass: "active",
     linkExactActiveClass: "exact-active" // short for `

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\FrontendController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{vue?}', function () {
-    return view('frontend.pages.dashboard.home');
-})->where('vue', '[\/\w\.-]*');;
+Route::get('/{vue?}', [FrontendController::class, 'index'])->where('vue', '[\/\w\.-]*');;
 // Route::get('/{vue?}', 'AppController@spa')->where('vue', '[\/\w\.-]*');
 
 Auth::routes();

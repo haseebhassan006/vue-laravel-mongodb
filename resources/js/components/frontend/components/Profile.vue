@@ -1,6 +1,6 @@
 <template>
 <div>
-                    <div class="flex lg:flex-row flex-col items-center lg:py-8 lg:space-x-8">
+    <div class="flex lg:flex-row flex-col items-center lg:py-8 lg:space-x-8">
 
                     <div>
                         <div class="bg-gradient-to-tr from-yellow-600 to-pink-600 p-1 rounded-full m-0.5 mr-2  w-56 h-56 relative overflow-hidden uk-transition-toggle">
@@ -85,5 +85,5 @@
 </div>
 </template>
 <script>
-   
+
 </script>
