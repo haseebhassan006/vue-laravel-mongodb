@@ -92,6 +92,147 @@
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -190,269 +331,1025 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass:
+          "flex lg:flex-row flex-col items-center lg:py-8 lg:space-x-8",
+      },
+      [
+        _c("div", [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "h1",
+            {
+              staticClass:
+                "lg:text-2xl text-lg font-extrabold leading-none text-gray-900 tracking-tight mt-8",
+            },
+            [_vm._v(" Highths ")]
+          ),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "my-6 grid lg:grid-cols-4 grid-cols-2 gap-1.5 hover:text-yellow-700 uk-link-reset",
+            },
+            [
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/avatars/avatar-lg-1.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/post/img1.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/post/img2.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/post/img3.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/post/img4.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/post/img5.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/avatars/avatar-1.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-red-500 max-w-full lg:h-64 h-40 rounded-md relative overflow-hidden uk-transition-toggle",
+                    attrs: { tabindex: "0" },
+                  },
+                  [
+                    _c("img", {
+                      staticClass:
+                        "w-full h-full absolute object-cover inset-0",
+                      attrs: { src: "assets/images/avatars/avatar-6.jpg" },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "absolute bg-black bg-opacity-40 bottom-0 flex h-full items-center justify-center space-x-5 text-lg text-white uk-transition-scale-up w-full",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "heart" },
+                            }),
+                            _vm._v(" 150 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "chatbubble-ellipses" },
+                            }),
+                            _vm._v(" 30 "),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "flex items-center",
+                            attrs: { href: "#story-modal", "uk-toggle": "" },
+                          },
+                          [
+                            _c("ion-icon", {
+                              staticClass: "mr-1",
+                              attrs: { name: "pricetags" },
+                            }),
+                            _vm._v(" 12  "),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(3),
+        ]),
+      ]
+    ),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass:
-            "flex lg:flex-row flex-col items-center lg:py-8 lg:space-x-8",
-        },
-        [
-          _c("div", [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "bg-gradient-to-tr from-yellow-600 to-pink-600 p-1 rounded-full m-0.5 mr-2  w-56 h-56 relative overflow-hidden uk-transition-toggle",
-              },
-              [
-                _c("img", {
-                  staticClass:
-                    "bg-gray-200 border-4 border-white rounded-full w-full h-full dark:border-gray-900",
-                  attrs: { src: "assets/images/avatars/avatar-7.jpg" },
-                }),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "absolute -bottom-3 custom-overly1 flex justify-center pt-4 pb-7 space-x-3 text-2xl text-white uk-transition-slide-bottom-medium w-full",
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "hover:text-white", attrs: { href: "#" } },
-                      [_c("i", { staticClass: "uil-camera" })]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "a",
-                      { staticClass: "hover:text-white", attrs: { href: "#" } },
-                      [_c("i", { staticClass: "uil-crop-alt" })]
-                    ),
-                  ]
-                ),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
+    return _c(
+      "div",
+      {
+        staticClass:
+          "flex lg:flex-row flex-col items-center lg:py-8 lg:space-x-8",
+      },
+      [
+        _c("div", [
           _c(
             "div",
             {
               staticClass:
-                "lg:w/8/12 flex-1 flex flex-col lg:items-start items-center",
+                "bg-gradient-to-tr from-yellow-600 to-pink-600 p-1 rounded-full m-0.5 mr-2  w-56 h-56 relative overflow-hidden uk-transition-toggle",
             },
             [
-              _c(
-                "h2",
-                { staticClass: "font-semibold lg:text-2xl text-lg mb-2" },
-                [_vm._v(" Stella Jonathan")]
-              ),
-              _vm._v(" "),
-              _c(
-                "p",
-                {
-                  staticClass:
-                    "lg:text-left mb-2 text-center  dark:text-gray-100",
-                },
-                [
-                  _vm._v(
-                    " Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet\n                            doming id quod mazim placerat facer possim assum"
-                  ),
-                ]
-              ),
+              _c("img", {
+                staticClass:
+                  "bg-gray-200 border-4 border-white rounded-full w-full h-full dark:border-gray-900",
+                attrs: { src: "assets/images/avatars/avatar-7.jpg" },
+              }),
               _vm._v(" "),
               _c(
                 "div",
                 {
                   staticClass:
-                    "flex font-semibold mb-3 space-x-2  dark:text-gray-10",
-                },
-                [
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Travailing")]),
-                  _vm._v(" , "),
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Sports")]),
-                  _vm._v("  , "),
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Movies")]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "capitalize flex font-semibold space-x-3 text-center text-sm my-2",
+                    "absolute -bottom-3 custom-overly1 flex justify-center pt-4 pb-7 space-x-3 text-2xl text-white uk-transition-slide-bottom-medium w-full",
                 },
                 [
                   _c(
                     "a",
-                    {
-                      staticClass:
-                        "bg-gray-300 shadow-sm p-2 px-6 rounded-md dark:bg-gray-700",
-                      attrs: { href: "#" },
-                    },
-                    [_vm._v(" Add friend")]
+                    { staticClass: "hover:text-white", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "uil-camera" })]
                   ),
                   _vm._v(" "),
                   _c(
                     "a",
-                    {
-                      staticClass:
-                        "bg-pink-500 shadow-sm p-2 pink-500 px-6 rounded-md text-white hover:text-white hover:bg-pink-600",
-                      attrs: { href: "#" },
-                    },
-                    [_vm._v(" Send message")]
-                  ),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c(
-                      "a",
-                      {
-                        staticClass:
-                          "bg-gray-300 flex h-12 h-full items-center justify-center rounded-full text-xl w-9 dark:bg-gray-700",
-                        attrs: { href: "#" },
-                      },
-                      [_c("i", { staticClass: "icon-feather-chevron-down" })]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "bg-white w-56 shadow-md mx-auto p-2 mt-12 rounded-md text-gray-500 hidden text-base dark:bg-gray-900",
-                        attrs: { "uk-drop": "mode: click" },
-                      },
-                      [
-                        _c("ul", { staticClass: "space-y-1" }, [
-                          _c("li", [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
-                                attrs: { href: "#" },
-                              },
-                              [
-                                _c("i", { staticClass: "uil-user-minus mr-2" }),
-                                _vm._v(
-                                  "Unfriend\n                                        "
-                                ),
-                              ]
-                            ),
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
-                                attrs: { href: "#" },
-                              },
-                              [
-                                _c("i", { staticClass: "uil-eye-slash  mr-2" }),
-                                _vm._v(
-                                  "Hide Your Story\n                                        "
-                                ),
-                              ]
-                            ),
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
-                                attrs: { href: "#" },
-                              },
-                              [
-                                _c("i", { staticClass: "uil-share-alt mr-2" }),
-                                _vm._v(
-                                  " Share This Profile\n                                        "
-                                ),
-                              ]
-                            ),
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _c("hr", {
-                              staticClass: "-mx-2 my-2  dark:border-gray-700",
-                            }),
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "flex items-center px-3 py-2 text-red-500 hover:bg-red-100 hover:text-red-500 rounded-md dark:hover:bg-red-600",
-                                attrs: { href: "#" },
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "uil-stop-circle mr-2",
-                                }),
-                                _vm._v(
-                                  " Block\n                                        "
-                                ),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]
-                    ),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "divide-gray-300 divide-transparent divide-x grid grid-cols-3 lg:text-left lg:text-lg mt-3 text-center w-full dark:text-gray-100",
-                },
-                [
-                  _c("div", { staticClass: "flex lg:flex-row flex-col" }, [
-                    _vm._v(" 120k "),
-                    _c("strong", { staticClass: "lg:pl-2" }, [_vm._v("Posts")]),
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "lg:pl-4 flex lg:flex-row flex-col" },
-                    [
-                      _vm._v(" 420k "),
-                      _c("strong", { staticClass: "lg:pl-2" }, [
-                        _vm._v("Followers"),
-                      ]),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "lg:pl-4 flex lg:flex-row flex-col" },
-                    [
-                      _vm._v(" 530k "),
-                      _c("strong", { staticClass: "lg:pl-2" }, [
-                        _vm._v("Following"),
-                      ]),
-                    ]
+                    { staticClass: "hover:text-white", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "uil-crop-alt" })]
                   ),
                 ]
               ),
             ]
           ),
-          _vm._v(" "),
-          _c("div", { staticClass: "w-20" }),
-        ]
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "lg:w/8/12 flex-1 flex flex-col lg:items-start items-center",
+          },
+          [
+            _c(
+              "h2",
+              { staticClass: "font-semibold lg:text-2xl text-lg mb-2" },
+              [_vm._v(" Stella Jonathan")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass:
+                  "lg:text-left mb-2 text-center  dark:text-gray-100",
+              },
+              [
+                _vm._v(
+                  " Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet\n                            doming id quod mazim placerat facer possim assum"
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "flex font-semibold mb-3 space-x-2  dark:text-gray-10",
+              },
+              [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Travailing")]),
+                _vm._v(" , "),
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Sports")]),
+                _vm._v("  , "),
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Movies")]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "capitalize flex font-semibold space-x-3 text-center text-sm my-2",
+              },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "bg-gray-300 shadow-sm p-2 px-6 rounded-md dark:bg-gray-700",
+                    attrs: { href: "#" },
+                  },
+                  [_vm._v(" Add friend")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "bg-pink-500 shadow-sm p-2 pink-500 px-6 rounded-md text-white hover:text-white hover:bg-pink-600",
+                    attrs: { href: "#" },
+                  },
+                  [_vm._v(" Send message")]
+                ),
+                _vm._v(" "),
+                _c("div", [
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "bg-gray-300 flex h-12 h-full items-center justify-center rounded-full text-xl w-9 dark:bg-gray-700",
+                      attrs: { href: "#", "aria-expanded": "false" },
+                    },
+                    [_c("i", { staticClass: "icon-feather-chevron-down" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "bg-white w-56 shadow-md mx-auto p-2 mt-12 rounded-md text-gray-500 hidden text-base dark:bg-gray-900 uk-drop",
+                      attrs: { "uk-drop": "mode: click" },
+                    },
+                    [
+                      _c("ul", { staticClass: "space-y-1" }, [
+                        _c("li", [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
+                              attrs: { href: "#" },
+                            },
+                            [
+                              _c("i", { staticClass: "uil-user-minus mr-2" }),
+                              _vm._v(
+                                "Unfriend\n                                        "
+                              ),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
+                              attrs: { href: "#" },
+                            },
+                            [
+                              _c("i", { staticClass: "uil-eye-slash  mr-2" }),
+                              _vm._v(
+                                "Hide Your Story\n                                        "
+                              ),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "flex items-center px-3 py-2 hover:bg-gray-200 hover:text-gray-800 rounded-md dark:hover:bg-gray-700",
+                              attrs: { href: "#" },
+                            },
+                            [
+                              _c("i", { staticClass: "uil-share-alt mr-2" }),
+                              _vm._v(
+                                " Share This Profile\n                                        "
+                              ),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("hr", {
+                            staticClass: "-mx-2 my-2  dark:border-gray-700",
+                          }),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "flex items-center px-3 py-2 text-red-500 hover:bg-red-100 hover:text-red-500 rounded-md dark:hover:bg-red-600",
+                              attrs: { href: "#" },
+                            },
+                            [
+                              _c("i", { staticClass: "uil-stop-circle mr-2" }),
+                              _vm._v(
+                                " Block\n                                        "
+                              ),
+                            ]
+                          ),
+                        ]),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "divide-gray-300 divide-transparent divide-x grid grid-cols-3 lg:text-left lg:text-lg mt-3 text-center w-full dark:text-gray-100",
+              },
+              [
+                _c("div", { staticClass: "flex lg:flex-row flex-col" }, [
+                  _vm._v(" 120k "),
+                  _c("strong", { staticClass: "lg:pl-2" }, [_vm._v("Posts")]),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "lg:pl-4 flex lg:flex-row flex-col" },
+                  [
+                    _vm._v(" 420k "),
+                    _c("strong", { staticClass: "lg:pl-2" }, [
+                      _vm._v("Followers"),
+                    ]),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "lg:pl-4 flex lg:flex-row flex-col" },
+                  [
+                    _vm._v(" 530k "),
+                    _c("strong", { staticClass: "lg:pl-2" }, [
+                      _vm._v("Following"),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-20" }),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "my-6 grid lg:grid-cols-5 grid-cols-3 gap-2 hover:text-yellow-700 uk-link-reset",
+      },
+      [
+        _c("a", { attrs: { href: "#" } }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "bg-gray-100 border-4 border-dashed flex flex-col h-full items-center justify-center relative rounded-2xl w-full",
+            },
+            [
+              _c("i", { staticClass: "text-4xl uil-plus-circle" }),
+              _vm._v(" "),
+              _c("span", [_vm._v(" Add new ")]),
+            ]
+          ),
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#story-modal", "uk-toggle": "" } }, [
+          _c("img", {
+            staticClass: "w-full lg:h-60 h-40 rounded-md object-cover",
+            attrs: { src: "assets/images/avatars/avatar-lg-1.jpg", alt: "" },
+          }),
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#story-modal", "uk-toggle": "" } }, [
+          _c("img", {
+            staticClass: "w-full lg:h-60 h-40 rounded-md object-cover",
+            attrs: { src: "assets/images/post/img2.jpg", alt: "" },
+          }),
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#story-modal", "uk-toggle": "" } }, [
+          _c("img", {
+            staticClass:
+              "w-full lg:h-60 h-40 rounded-md object-cover uk-visible@s",
+            attrs: { src: "assets/images/post/img7.jpg", alt: "" },
+          }),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "flex items-center justify-between mt-8 space-x-3" },
+      [
+        _c(
+          "h1",
+          {
+            staticClass:
+              "flex-1 font-extrabold leading-none lg:text-2xl text-lg text-gray-900 tracking-tight uk-heading-line",
+          },
+          [_c("span", [_vm._v("Explore")])]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "bg-white border border-2 border-gray-300 divide-gray-300 divide-x flex rounded-md shadow-sm dark:bg-gray-100",
+          },
+          [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "bg-gray300 flex h-10 items-center justify-center  w-10",
+                attrs: {
+                  href: "#",
+                  "data-tippy-placement": "top",
+                  "data-tippy": "",
+                  "data-original-title": "Grid view",
+                },
+              },
+              [_c("i", { staticClass: "uil-apps" })]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "flex h-10 items-center justify-center w-10",
+                attrs: {
+                  href: "#",
+                  "data-tippy-placement": "top",
+                  "data-tippy": "",
+                  "data-original-title": "List view",
+                },
+              },
+              [_c("i", { staticClass: "uil-list-ul" })]
+            ),
+          ]
+        ),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex justify-center mt-6" }, [
+      _c(
+        "a",
+        {
+          staticClass:
+            "bg-white dark:bg-gray-900 font-semibold my-3 px-6 py-2 rounded-full shadow-md dark:bg-gray-800 dark:text-white",
+          attrs: { href: "#" },
+        },
+        [_vm._v(" Load more ..")]
       ),
     ])
   },

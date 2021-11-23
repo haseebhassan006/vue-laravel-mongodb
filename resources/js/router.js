@@ -24,6 +24,7 @@ const routes = [
     { path: "/profile", component: () => setComponent("dashboard/profile/Profile"), name: "Profile" },
     { path: "/feed", component: () => setComponent("dashboard/feed/Feed"), name: "Feed" },
     { path: "/settings", component: () => setComponent("settings/Setting"), name: "Setting" },
+    { path: "/explore", component: () => setComponent("explore/Explore"), name: "Explore" }
 
 ]
 
