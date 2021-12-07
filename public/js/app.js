@@ -2168,12 +2168,11 @@ var routes = [{
   component: function component() {
     return setComponent("error/404");
   }
-}, {
-  path: "/",
-  redirect: {
-    path: '/home'
-  }
-}, {
+}, // {
+//     path: "/",
+//     redirect: { path: '/' }
+// },
+{
   path: "/home",
   component: function component() {
     return setComponent("dashboard/Home");
@@ -2203,6 +2202,12 @@ var routes = [{
     return setComponent("explore/Explore");
   },
   name: "Explore"
+}, {
+  path: "/login",
+  component: function component() {
+    return setComponent("auth/Login");
+  },
+  name: "Login"
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
@@ -34691,10 +34696,23 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/css/custome.css":
+/*!***********************************!*\
+  !*** ./resources/css/custome.css ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -52813,6 +52831,26 @@ var map = {
 		9,
 		"resources_js_components_frontend_components_Settings_vue"
 	],
+	"./components/frontend/pages/IndexComponent": [
+		"./resources/js/components/frontend/pages/IndexComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_IndexComponent_vue"
+	],
+	"./components/frontend/pages/IndexComponent.vue": [
+		"./resources/js/components/frontend/pages/IndexComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_IndexComponent_vue"
+	],
+	"./components/frontend/pages/auth/LoginComponent": [
+		"./resources/js/components/frontend/pages/auth/LoginComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_auth_LoginComponent_vue"
+	],
+	"./components/frontend/pages/auth/LoginComponent.vue": [
+		"./resources/js/components/frontend/pages/auth/LoginComponent.vue",
+		9,
+		"resources_js_components_frontend_pages_auth_LoginComponent_vue"
+	],
 	"./components/frontend/pages/dashboard/HomeComponent": [
 		"./resources/js/components/frontend/pages/dashboard/HomeComponent.vue",
 		9,
@@ -53040,7 +53078,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_frontend_components_Explore_vue":1,"resources_js_components_frontend_components_Feed_vue":1,"resources_js_components_frontend_components_Profile_vue":1,"resources_js_components_frontend_components_Settings_vue":1,"resources_js_components_frontend_pages_dashboard_HomeComponent_vue":1,"resources_js_components_frontend_pages_dashboard_feed_FeedComponent_vue":1,"resources_js_components_frontend_pages_dashboard_profile_ProfileComponent_vue":1,"resources_js_components_frontend_pages_explore_ExploreComponent_vue":1,"resources_js_components_frontend_pages_settings_SettingComponent_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_frontend_components_Explore_vue":1,"resources_js_components_frontend_components_Feed_vue":1,"resources_js_components_frontend_components_Profile_vue":1,"resources_js_components_frontend_components_Settings_vue":1,"resources_js_components_frontend_pages_IndexComponent_vue":1,"resources_js_components_frontend_pages_auth_LoginComponent_vue":1,"resources_js_components_frontend_pages_dashboard_HomeComponent_vue":1,"resources_js_components_frontend_pages_dashboard_feed_FeedComponent_vue":1,"resources_js_components_frontend_pages_dashboard_profile_ProfileComponent_vue":1,"resources_js_components_frontend_pages_explore_ExploreComponent_vue":1,"resources_js_components_frontend_pages_settings_SettingComponent_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
@@ -53152,6 +53190,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
+/******/ 			"assets/css/custome": 0,
 /******/ 			"css/app": 0
 /******/ 		};
 /******/ 		
@@ -53164,7 +53203,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if("css/app" != chunkId) {
+/******/ 						if(!/^(assets\/css\/custome|css\/app)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -53239,8 +53278,9 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/custome","css/app"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/custome","css/app"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/custome","css/app"], () => (__webpack_require__("./resources/css/custome.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

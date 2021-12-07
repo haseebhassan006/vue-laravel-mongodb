@@ -14,9 +14,8 @@ use App\Http\Controllers\Frontend\FrontendController;
 |
 */
 
-Route::get('/{vue?}', [FrontendController::class, 'index'])->where('vue', '[\/\w\.-]*');;
+Route::get('/{any}', [FrontendController::class, 'index'])->where('any', '[\/\w\.-]*');
 // Route::get('/{vue?}', 'AppController@spa')->where('vue', '[\/\w\.-]*');
+// Auth::routes();
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

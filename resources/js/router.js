@@ -15,16 +15,18 @@ function setComponent(path_file) {
 const routes = [
 
     { path: "*", component: () => setComponent("error/404") },
+    // {
+    //     path: "/",
+    //     redirect: { path: '/' }
+    // },
 
-    {
-        path: "/",
-        redirect: { path: '/home' }
-    },
     { path: "/home", component: () => setComponent("dashboard/Home"), name: "Home" },
     { path: "/profile", component: () => setComponent("dashboard/profile/Profile"), name: "Profile" },
     { path: "/feed", component: () => setComponent("dashboard/feed/Feed"), name: "Feed" },
     { path: "/settings", component: () => setComponent("settings/Setting"), name: "Setting" },
-    { path: "/explore", component: () => setComponent("explore/Explore"), name: "Explore" }
+    { path: "/explore", component: () => setComponent("explore/Explore"), name: "Explore" },
+    { path: "/login", component: () => setComponent("auth/Login"), name: "Login" }
+
 
 ]
 

@@ -10,9 +10,11 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "jenssegers/mongodb": "^3.8",
         "laravel/framework": "^8.65",
-        "laravel/sanctum": "^2.11",
+        "laravel/passport": "^10.2",
+        "laravel/sanctum": "^2.12",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.3"
+        "laravel/ui": "^3.3",
+        "thulisoft/laravel-mongodb-passport": "dev-main"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
